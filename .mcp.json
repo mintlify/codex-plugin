@@ -1,10 +1,10 @@
 {
   "mcp_servers": {
-    "Mintlify": {
+    "Search MCP": {
       "type": "http",
       "url": "https://mintlify.com/docs/mcp"
     },
-    "Mintlify MCP": {
+    "Admin MCP": {
       "type": "http",
       "url": "https://mcp.mintlify.com"
     }
