@@ -1,7 +1,7 @@
 {
   "name": "mintlify",
   "version": "0.1.0",
-  "description": "Comprehensive reference for building Mintlify documentation sites.",
+  "description": "Comprehensive reference for building Mintlify sites.",
   "author": {
     "name": "Mintlify",
     "email": "support@mintlify.com",
@@ -15,8 +15,8 @@
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Mintlify",
-    "shortDescription": "Comprehensive reference for building Mintlify documentation sites.",
-    "longDescription": "Build and maintain Mintlify documentation sites with AI assistance. Includes reference for all components, configuration options, navigation, API docs, and CLI commands. Comes bundled with the Mintlify MCP server for live access to docs and direct editing.",
+    "shortDescription": "Comprehensive reference for building Mintlify sites.",
+    "longDescription": "Build and maintain Mintlify sites with AI assistance. Includes reference for all components, configuration options, navigation, API docs, and CLI commands. Comes bundled with the Mintlify MCP servers for live access to docs and direct editing.",
     "developerName": "Mintlify",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],

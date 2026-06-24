@@ -23,7 +23,7 @@ Read these files **only when your task requires them**. They are in the `referen
 
 Two Mintlify MCP servers are available. Use them alongside the reference files in this skill.
 
-### Mintlify (docs MCP)
+### Search MCP
 
 Read-only access to Mintlify's published documentation. Use it when the reference files don't cover a specific detail, when you need an up-to-date component signature, or to verify an unfamiliar config option.
 
@@ -31,7 +31,7 @@ Tools:
 - `search_mintlify` — Search the Mintlify knowledge base by query. Good for finding guides, examples, and API references.
 - `query_docs_filesystem_mintlify` — Browse the docs file tree (`ls`, `cat`, `grep`, `find`, etc.). Good for reading a specific docs page.
 
-### Mintlify MCP (dashboard MCP)
+### Admin MCP
 
 Write access to a Mintlify project. Requires OAuth login on first use — Codex will open a browser window to authenticate.
 
@@ -209,7 +209,7 @@ Use `<Columns>` to arrange cards (or other content) in a grid. `cols` accepts 1-
 
 ## CLI commands
 
-Install with `npm i -g mint`. Key commands: `mint dev` (local preview), `mint validate`, `mint broken-links`, `mint a11y`, `mint score`, `mint analytics`, `mint workflow`, `mint new`. Read `reference/cli.md` for full flags and subcommands.
+Install with `npm i -g mint`. Key commands: `mint dev` (local preview), `mint validate`, `mint broken-links`, `mint a11y`, `mint score`, `mint automations`, `mint new`. Read `reference/cli.md` for full flags and subcommands.
 
 ## Writing standards
 
