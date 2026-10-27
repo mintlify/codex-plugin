@@ -1,12 +1,25 @@
 {
-  "mcp_servers": {
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
     "Mintlify Search": {
-      "type": "http",
+      "type": "streamable-http",
       "url": "https://mintlify.com/docs/mcp"
     },
     "Mintlify Admin": {
-      "type": "http",
-      "url": "https://mcp.mintlify.com"
+      "type": "streamable-http",
+      "url": "https://mcp.mintlify.com",
+      "extensions": {
+        "com.openai": {
+          "auth": {
+            "type": "oauth",
+            "client": {
+              "mode": "provided",
+              "clientId": "client_01M5XEP1BWVAPE6HZFAF7SZGH5",
+              "tokenEndpointAuthMethod": "none"
+            }
+          }
+        }
+      }
     }
   }
 }
