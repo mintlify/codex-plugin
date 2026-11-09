@@ -1,0 +1,20 @@
+{
+  "name": "mintlify",
+  "interface": {
+    "displayName": "Mintlify"
+  },
+  "plugins": [
+    {
+      "name": "mintlify",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
