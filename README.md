@@ -16,10 +16,11 @@ The skill covers:
 
 ## Installation
 
-Install from the Codex plugin directory, or add directly via the CLI:
+Install from the Codex plugin directory, or add the marketplace and install the plugin via the CLI:
 
 ```bash
 codex plugin marketplace add mintlify/codex-plugin
+codex plugin add mintlify@mintlify
 ```
 
 ## MCP setup
